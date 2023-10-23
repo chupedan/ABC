@@ -47,7 +47,7 @@ const descreaseId = [...users].sort((u1, u2) => {
     return a === b ? 0 : a > b ? -1 : 1;
 })
 
-console.log(2. + '\n');
+console.log('2.\n');
 console.log(increaseId);
 console.log(descreaseId);
 
@@ -83,12 +83,6 @@ console.log(descreaseId);
 // Sắp xếp theo Name tăng dần
 // sortArray(users, "id", true);
 // console.table(users);
-
-// Sắp xếp theo Name giảm dần
-// sortArray(users, "id", false);
-// console.log("Sắp xếp theo Id giảm dần:", users);
-
-
 
 // ===============3
 let arr1 = [], arr2 = [];
